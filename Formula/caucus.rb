@@ -1,15 +1,15 @@
 class Caucus < Formula
   desc "Multi-LLM consensus engine — aggregate and synthesize LLM outputs"
   homepage "https://github.com/bradleydwyer/caucus"
-  url "https://github.com/bradleydwyer/caucus/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "36ba8cb0b39a2becc0b874a3dcfea737d6451d3e688defea6bfca98708be44b4"
+  url "https://github.com/bradleydwyer/caucus/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "1c7e072cd4e9a7db63122161d05393032aae9fbc216fb601528bcf08567a455e"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/bradleydwyer/caucus/releases/download/v0.4.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "aab5758bfb2ca688f8bba7ffed867714a3277627fd3f4f0e27a1904891d32b7b"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "707b1657d7a33078d8d6d190651545a68a347414ea27d928200b9fd36db0f548"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "e8fb0129a7abfb7b04816f5270b9bb06577637dfb14b8effc3fea0f1d4217687"
+    root_url "https://github.com/bradleydwyer/caucus/releases/download/v0.4.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "60c2db4549243b421b05d4de734982da8ad60dee471948a857a653803c1ed27f"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "991ab4f7ba62fd1fb1997aeefdef210d6bab8095260109e5c93748af2b957813"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "984d0e4d97c4d74708c386fd0adb69c62b7d86b25196008b049747a7ccd7ae1f"
   end
 
   depends_on "rust" => :build
